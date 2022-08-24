@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+#rank-header {
+    text-align: left;
+}
+
+#coin-header ~ th{
+    text-align: right;
+}
+
+#coin-header {
+    text-align: left;
+}
+
+#coin-container ~ td {
+    text-align: right;
+}
+
+input {
+    border-radius: 10px;
+}
+
+span {
+    color: gray;
+    margin-left: 5px;
+    font-size: 8px;
+}
+
+td > img {
+    margin-right: 10px;
+}
+
+#coin-container {
+    display: flex;
+    align-items: center;
+}
